@@ -1,10 +1,12 @@
 ﻿using System;
+using estructura_de_datos_poo.Entity;
+using estructura_de_datos_poo.Services;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace estructura_de_datos_poo
+namespace estructura_de_datos_poo.Entity
 {
     public class Cliente
     {

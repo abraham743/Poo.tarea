@@ -1,13 +1,20 @@
 ﻿using System;
+using estructura_de_datos_poo.Entity;
+using estructura_de_datos_poo.Services;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace estructura_de_datos_poo
+namespace estructura_de_datos_poo.Services
 {
     public class Clienteservices
     {
+
+       
+
+
+        
         //agregar los datos del cliente
         public Cliente Agregar()
         {
@@ -51,13 +58,13 @@ namespace estructura_de_datos_poo
             }
         }
 
-        //
+        // 
         public int SumaProducto()
         {
             try
             {
                 int Total = 0;
-                Console.WriteLine("Ingresa 5 Numeros De Articulos: ");
+                Console.WriteLine("Ingresa la cantidad  en pesos de 5 Articulos: ");
                 for (int i = 0; i < 5; i++)
                 {
                     Console.Write("Articulo {0}: ", i);
@@ -66,7 +73,7 @@ namespace estructura_de_datos_poo
                 }
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                Console.Write("Suma Total:");
+                Console.Write("el Total es :");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine(Total);
                 Console.WriteLine("");
